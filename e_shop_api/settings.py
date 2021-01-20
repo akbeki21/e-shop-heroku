@@ -176,7 +176,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=confir('DATABASE_URL'),
+        default=config('DATABASE_URL'),
     )
 }
 
